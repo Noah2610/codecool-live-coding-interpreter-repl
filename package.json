@@ -1,0 +1,10 @@
+{
+    "name": "interpreter-repl",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "oidascript": "file:../interpreter/dist"
+    }
+}
