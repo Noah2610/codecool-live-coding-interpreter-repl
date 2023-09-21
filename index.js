@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from "node:fs/promises";
 import process, { stdin, stdout } from "node:process";
 import * as readline from "node:readline/promises";

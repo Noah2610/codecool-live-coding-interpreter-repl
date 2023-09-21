@@ -4,6 +4,12 @@
     "main": "index.js",
     "license": "MIT",
     "type": "module",
+    "bin": {
+        "oida": "./index.js"
+    },
+    "scripts": {
+        "start": "node ./index.js"
+    },
     "dependencies": {
         "oidascript": "file:../interpreter/dist"
     }
